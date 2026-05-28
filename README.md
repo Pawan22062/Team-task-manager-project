@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Team Task Manager
 
 A full-stack web app for creating projects, assigning tasks, and tracking progress with **role-based access control** (Admin / Member per project).
@@ -79,3 +80,6 @@ User ──┬── ProjectMember (role: ADMIN | MEMBER) ── Project
 - Change `JWT_SECRET` in `server/.env`
 - Switch Prisma datasource to PostgreSQL for production
 - Run `npm run build --prefix client` and serve static files behind your API or a reverse proxy
+=======
+# Team-task-manager-project
+>>>>>>> 0905776649f8f5968b753b751750d57bb2056e74
