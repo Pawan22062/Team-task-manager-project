@@ -35,9 +35,9 @@ app.use((err, _req, res, _next) => {
 /*app.get("/", (req, res) => {
   res.send("Server is running successfully");
 });*/
-app.get("/*", (req, res) => {
+app.get("/", (req, res) => {
   res.sendFile(
-    path.join(__dirname, '../../client/dist/index.html')
+    path.join(__dirname, "../../client/dist/index.html")
   );
 });
 
